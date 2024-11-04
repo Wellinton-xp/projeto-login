@@ -106,7 +106,7 @@ form input[type=email], input[type=password] {
     height: 100%;
     width: calc(100% - 46px);
     border: none;
-    transform: translateY(-14px);
+    transform: translateY(-15px);
 }
 
 .campo > input:focus-within {
