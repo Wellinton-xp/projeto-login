@@ -13,11 +13,11 @@
 */
 
 :root {
-    --turquesa: #312DA6;
-    --azul: #024873;
-    --verde-escuro: #A0F294; 
-    --verde-claro: #52BF04;
-    --rosa: #A66F6F;
+    --vermelho1: #BF2633;
+    --vermelho2: #A6263E;
+    --azul1: #2E468C; 
+    --azul2: #074973;
+    --cinza: #D9D9D9;
 }
 
 * {
@@ -28,7 +28,7 @@
 }
 
 body {
-    background-image: linear-gradient(-100deg, #A66F6F, #312DA6);
+    background-image: linear-gradient(-400deg, #D9D9D9, #a6263d8e);
     height: 100vh;
     width: 100vw;
 }
@@ -56,7 +56,7 @@ main {
 
 #login > #imagem {
     display: block;
-    background: var(--rosa) url(../imagens/cubo.jpg) no-repeat;
+    background: url(../imagens/spider_blue.png) no-repeat;
     background-size: cover;
     background-position: right, center;
     height: 200px;
@@ -65,4 +65,8 @@ main {
 #login > #formulario {
     display: block;
     padding: 10px;
+    background-color: #05406b;
+    color: white;
+    width: 100%;
+    height: 100vh;
 }
