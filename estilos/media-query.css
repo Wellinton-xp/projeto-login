@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* VERSÃO TABLET */
-@media screen and (min-width: 600px) and (max-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     #login {
         width: 90vw;
         height: 350px;
@@ -30,7 +30,7 @@
 }
 
 /* VERSÃO DESKTOP */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     #login {
         width: 1000px;
         height: 450px;
