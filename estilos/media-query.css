@@ -7,15 +7,21 @@
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
         background-position: center, center;
     }
 
     #login > #formulario {
-        float: right;
+        float: left;
         width: 70%;
+    }
+    #formulario > h1 {
+        font-size: 1.5em;
+    }
+    #formulario > p {
+        font-size: 1em;
     }
 }
 
@@ -33,5 +39,11 @@
     #login > #formulario {
         float: right;
         width: 50%;
+    }
+    #formulario > h1 {
+        font-size: 2em;
+    }
+    #formulario > p {
+        font-size: 1.2em;
     }
 }
