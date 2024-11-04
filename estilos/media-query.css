@@ -4,7 +4,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #login {
         width: 90vw;
-        height: 350px;
+        height: 400px;
     }
 
     #login > #imagem {
@@ -33,7 +33,7 @@
 @media screen and (min-width: 992px) {
     #login {
         width: 1000px;
-        height: 450px;
+        height: 430px;
     }
     #login > #imagem {
         float: left;

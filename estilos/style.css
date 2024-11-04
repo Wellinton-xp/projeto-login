@@ -41,7 +41,7 @@ main {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 515px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
     transition: width .7s, height .7s;
@@ -75,7 +75,6 @@ main {
     font-size: .8em;
     font-weight: lighter;
     margin: 20px 0px;
-    text-indent: 0px;
 }
 
 #formulario > form > a {
