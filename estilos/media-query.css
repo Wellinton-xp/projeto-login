@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* VERSÃO TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #login {
+        width: 90vw;
+    }
+
+    #login > #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center, center;
+    }
+
+    #login > #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+/* VERSÃO DESKTOP */
+@media screen and (min-width: 992px) {
+    #login {
+        width: 1000px;
+    }
+    #login > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center, center;
+    }    
+    #login > #formulario {
+        float: right;
+        width: 50%;
+    }
+}
