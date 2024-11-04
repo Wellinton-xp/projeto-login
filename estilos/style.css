@@ -85,22 +85,35 @@ main {
 }
 
 form > div.campo {
-    background-color: var(--vermelho1);
+    background-color: #BF2633;
     display: block;
     width: 100%;
-    height: 35px;
-    border-radius: 20px;
-    margin: 3px 0px;
+    height: 40px;
+    border: 1px solid #BF2633;
+    border-radius: 10px;
+    margin: 5px 0px;
 }
 
 .campo >label {
     display: none;
 }
 
-form > input[type=email] {
-    display: block;
-    
-    
+form div svg {
+    width: 40px;
+    height: 100%;
+}
+
+form input[type=email], input[type=password] {
+    transform: translateY(-14px);
+    border-radius: 10px;
+    background-color: var(--azul2);
+    height: 100%;
+    width: calc(100% - 46px);
+    border: none;
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
