@@ -75,6 +75,7 @@ main {
     font-size: .8em;
     font-weight: lighter;
     margin: 20px 0px;
+    text-indent: 0px;
 }
 
 #formulario > form > a {
