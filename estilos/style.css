@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*
     Paleta de cores:
 
@@ -16,4 +18,50 @@
     --verde-escuro: #A0F294; 
     --verde-claro: #52BF04;
     --rosa: #A66F6F;
+}
+
+* {
+    font-family: "Prompt", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: linear-gradient(-100deg, #A66F6F, #312DA6);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+}
+
+#login > #imagem {
+    display: block;
+    background: var(--rosa) url(../imagens/cubo.jpg) no-repeat;
+    background-size: cover;
+    background-position: right, center;
+    height: 200px;
+}
+
+#login > #formulario {
+    display: block;
+    padding: 10px;
 }
