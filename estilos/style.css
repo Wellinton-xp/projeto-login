@@ -43,7 +43,6 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 250px;
@@ -52,6 +51,7 @@ main {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
     transition: width .7s, height .7s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #login > #imagem {
@@ -78,6 +78,8 @@ main {
 
 #formulario > p {
     font-size: .8em;
+    font-weight: lighter;
+    margin: 20px 0px;
 }
 
 #formulario > form > a {
@@ -104,12 +106,12 @@ form div svg {
 }
 
 form input[type=email], input[type=password] {
-    transform: translateY(-14px);
     border-radius: 10px;
     background-color: var(--azul2);
     height: 100%;
     width: calc(100% - 46px);
     border: none;
+    transform: translateY(-14px);
 }
 
 .campo > input:focus-within {
